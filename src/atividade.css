@@ -16,7 +16,7 @@
   border: 1px solid rgb(30,178,247);
   background-color: rgb(139, 193, 218);
 }
- 
+  
 form div {
   display: flex;
   flex-direction: row;

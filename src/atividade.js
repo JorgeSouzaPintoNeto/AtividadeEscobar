@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './atividade.css';
+import Jorge from './jorge';
 
 function Atividade() {
 
@@ -36,6 +37,12 @@ function Atividade() {
           <p>{telefone}</p>
         </div>
       </div>
+      <div className="Resultado_Atividade">
+        <div className="Resultados">
+          <button onClick={Jorge}> Veja autor </button>
+        </div> 
+      </div>
+      
     </div>
   );
 }
